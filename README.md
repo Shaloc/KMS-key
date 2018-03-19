@@ -1,4 +1,12 @@
 # kms-key
 see GVLK.md
 ## usage
-see https://www.shaloc.site/?p=171
+'''bash
+slmgr /upk
+wmic os get caption
+slmgr /ipk xxxxx-xxxxx-xxxxx-xxxxx
+slmgr /skms kms.shaloc.site
+slmgr /ato
+'''
+## license
+Nolicensed
